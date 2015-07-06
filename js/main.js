@@ -8,7 +8,7 @@ heading.addEventListener('click', function() {
     document.getElementById('output').innerHTML += message;
 });
 
-document.forms[0].onsubmit = function () {
+document.addEventListener('submit', function (event) {
     var firstName = document.getElementById('firstname').value;
     var lastName = document.getElementById('lastname').value;
     var email = document.getElementById('email').value;
@@ -18,4 +18,4 @@ document.forms[0].onsubmit = function () {
     console.log( 'The email is: ' + email );
     console.log( 'The message is: ' + message );
     event.preventDefault();
- };
+ });
