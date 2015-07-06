@@ -2,13 +2,17 @@ body {
     background-color: lightblue;
 }
 
-input {
-    width: 200px;
-}
-
 label {
     width: 100px;
     display: inline-block;
     font-weight: bold;
-    color: red;
+    color: darkgreen;
+}
+
+input, textarea {
+    width: 200px;
+}
+
+textarea {
+    height: 4em;
 }
