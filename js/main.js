@@ -17,5 +17,5 @@ document.forms[0].onsubmit = function () {
     console.log( 'The lastName is: ' + lastName );
     console.log( 'The email is: ' + email );
     console.log( 'The message is: ' + message );
-    return false;
+    event.preventDefault();
  };
