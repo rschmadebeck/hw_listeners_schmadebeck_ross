@@ -19,3 +19,21 @@ document.addEventListener('submit', function (event) {
     console.log( 'The message is: ' + message );
     event.preventDefault();
  });
+
+//MouseOver of TwinForks image that writes to the console that the user has hovered or moused over the image
+
+document.getElementById('TwinForks').addEventListener('mouseover', function() {
+    console.log( 'User moused over image');
+})
+
+//MouseDown on Image TwinForks image that writes to the console that the user has clicked down on the image
+
+document.getElementById('TwinForks').addEventListener('mousedown', function() {
+    console.log( 'User moused down on the image');
+})
+
+//MouseOut of external hyperlink that writes to the console the user has moved off the link.
+
+document.getElementsByClassName('links')[0].addEventListener('mouseout', function() {
+    console.log( 'User moused out the website link');
+})

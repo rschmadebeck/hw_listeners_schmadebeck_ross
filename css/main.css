@@ -16,3 +16,8 @@ input, textarea {
 textarea {
     height: 4em;
 }
+
+img {
+    width: 50%;
+    min-width: 250px;
+}
