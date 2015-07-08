@@ -2,6 +2,12 @@ body {
     background-color: lightblue;
 }
 
+header h1 {
+    width: 50%;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
 label {
     width: 100px;
     display: inline-block;
@@ -11,13 +17,51 @@ label {
 
 input, textarea {
     width: 200px;
+    margin-bottom: 10px;
 }
 
 textarea {
     height: 4em;
 }
 
-img {
+img, figcaption {
     width: 50%;
     min-width: 250px;
+}
+
+p, ul li {
+    font-family: Tahoma;
+    font-size: 10pt;
+}
+
+a, a:active, a:visited {
+    color: darkblue;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.container {
+    width: 50%;
+    margin: auto;
+}
+
+.container h1 {
+    font-family: Tahoma, serif;
+    color: grey;
+}
+
+.container h2 {
+    font-family: Verdana, serif;
+    color: darkgrey;
+}
+
+figcaption {
+    font-family: Tahoma;
+    font-size: 8pt;
+    text-align: right;
+    font-weight: bold;
 }
